@@ -19,11 +19,11 @@ def determine_winner(user,computer):
     if user == computer:
         return "It's a tie choose again!"
     if(user == 'rock' and computer == 'scissors'):
-        return "User wins!"
+        return "You win!"
     elif(user == 'paper' and computer == 'rock'):
-        return "User wins!"
+        return "You win!"
     elif(user == 'scissors' and computer == 'paper'):
-        return 'User wins!'
+        return 'You win!'
     else:
         return 'Computer wins!'
 
